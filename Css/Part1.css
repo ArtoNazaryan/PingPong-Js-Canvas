@@ -1,0 +1,59 @@
+*{
+	margin:0;
+	padding:0;
+}
+#bgconf{
+	background:#eb4034;
+	border:none;
+	outline: none;
+	color:white;
+	font-size:21px;
+	padding:3px;
+	box-sizing:border-box;
+	transition:0.5s;
+}
+#bgconf:hover{
+	color:black;
+	cursor:pointer;
+	background: #ffeb0d;
+}
+.colordiv{
+ display: none;
+}
+.menu{
+	display:none;
+	padding:15px;
+	box-sizing:border-box;
+	width:0;
+	height:100vh;
+	background:#e8dddc;
+	float:right;
+}
+.arrow{
+	color:#07ceed;
+	float:right;
+	position:absolute;
+	top:50vh;
+	right:0;
+}
+.arrow:hover{
+	cursor:pointer;
+}
+.menu>i{
+	display:none;
+}
+.arrow1{
+	color:black;
+	float:right;
+	position:absolute;
+	top:50vh;
+	right:24.5%;
+}
+.arrow1:hover{
+	cursor:pointer;
+}
+#gamediv{
+	position:absolute;
+	top:20vh;
+	left:40vh;
+}

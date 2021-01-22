@@ -1,0 +1,28 @@
+class Paddle extends Grafic{
+	constructor(x,y){
+		super()
+		this.x=x
+		this.y=y
+		this.w=10
+		this.h=130
+		this.dy=0
+	}
+	create(){
+		this.ctx.beginPath()
+		this.ctx.fillStyle="#e88102"
+		this.ctx.fillRect(this.x,this.y,this.w,this.h)
+		this.ctx.fill()
+		this.ctx.closePath()
+	}
+	middleline(){
+		this.ctx.beginPath()
+		this.ctx.fillStyle="#e88102"
+		this.ctx.fillRect(500,0,10,800)
+		this.ctx.fill()
+		this.ctx.closePath()
+	}
+	move(){
+		this.y+=this.dy
+		this.create()
+	}
+}
