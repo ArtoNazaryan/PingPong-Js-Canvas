@@ -1,2 +1,3 @@
 # PingPong-Js-Canvas
-Simple trash that i have made while learning js, hope it will be useful :|
+Simple but interesting game Ping pong Made with Js/Canvas
+You can view it here : https://artonazaryan.github.io/PingPong-Js-Canvas/
